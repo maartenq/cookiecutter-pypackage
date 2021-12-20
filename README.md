@@ -1,5 +1,5 @@
 # Cookiecutter-pypackage
 
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/maartenq/cookiecutter-pypackage)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/maartenq/cookiecutter-pypackage/main.svg)](https://results.pre-commit.ci/latest/github/maartenq/cookiecutter-pypackage/main)
 
 Cookiecutter for a Python package project.
