@@ -1,0 +1,6 @@
+# requirements.txt
+
+black
+cookiecutter
+flake8
+pre-commit
