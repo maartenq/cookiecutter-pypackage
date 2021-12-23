@@ -1,5 +1,0 @@
-include *.yaml
-include *.yml
-include Makefile
-recursive-include docs *.md
-recursive-include tests *.py

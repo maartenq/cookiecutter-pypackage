@@ -15,6 +15,7 @@ A [Cookiecutter] template for a Python package project.
   * [Black]
   * [isort]
   * [Flake8]
+* [setuptools-scm]
 
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
@@ -27,3 +28,4 @@ A [Cookiecutter] template for a Python package project.
 [flake8]: https://flake8.pycqa.org/en/latest/
 [isort]: https://pycqa.github.io/isort/
 [pre-commit]: https://pre-commit.com/
+[setuptools-scm]: https://pypi.org/project/setuptools-scm/
