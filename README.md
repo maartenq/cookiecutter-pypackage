@@ -6,24 +6,24 @@ A [Cookiecutter] template for a Python package project.
 
 ## Features
 
+* [Declarative config using setup.cfg]
+* [MkDocs]
+* [Pytest]
+* [Tox]
+* [Typer]
 * [pre-commit] with i.a.:
   * [Black]
   * [isort]
   * [Flake8]
-* [Tox]
-* [Pytest]
-* [MkDocs]
-* [Typer]
-* [Declarative config using setup.cfg]
 
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
-[pre-commit]: https://pre-commit.com/
-[black]: https://black.readthedocs.io/en/stable/
-[isort]: https://pycqa.github.io/isort/
-[flake8]: https://flake8.pycqa.org/en/latest/
-[Tox]: https://tox.wiki/en/latest/
-[Pytest]: https://docs.pytest.org/
-[Mkdocs]: https://www.mkdocs.org/
-[Typer]: https://typer.tiangolo.com/
 [Declarative config using setup.cfg]: https://setuptools.pypa.io/en/latest/userguide/declarative_config.html
+[Mkdocs]: https://www.mkdocs.org/
+[Pytest]: https://docs.pytest.org/
+[Tox]: https://tox.wiki/en/latest/
+[Typer]: https://typer.tiangolo.com/
+[black]: https://black.readthedocs.io/en/stable/
+[flake8]: https://flake8.pycqa.org/en/latest/
+[isort]: https://pycqa.github.io/isort/
+[pre-commit]: https://pre-commit.com/
