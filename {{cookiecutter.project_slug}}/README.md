@@ -10,7 +10,7 @@
 
 ## Credits
 
-This project setup was done with the friendly assistance of [Cookiecutter] and
+The project setup was done with the friendly assistance of [Cookiecutter] and
 the [maartenq/cookiecutter-pypackage] project template.
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
