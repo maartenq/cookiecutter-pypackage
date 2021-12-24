@@ -1,0 +1,6 @@
+---
+# codecov.yml
+
+# Fix to include __init__.py
+fixes:
+  "::src/{{ cookiecutter.project_slug }}/"
