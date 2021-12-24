@@ -87,19 +87,18 @@ docs: clean-docs ## Generate MkDocs HTML documentation
 	mkdocs build
 	$(BROWSER) site/index.html
 
-.PHONY: upload
-upload: ## Upload package to Python Package Index (PyPI).
-	 python -m twine upload dist/*
+.PHONY: publish
+publish: ## Publish package to Python Package Index (PyPI).
+	 python -m flit publish --no-setup-py
 
 .PHONY: build
 build: clean ## Builds source and wheel package.
-	python -m build
-	python -m twine check --strict dist/*
+	python -m flit build --no-setup-py
 
 .PHONY: devenv
 devenv: ## Install package (in dev mode) and dev packages.
-	python -m pip install -U pip wheel setuptools
+	python -m pip install -U pip wheel
 	python -m pip install -e ".[dev,docs,test]"
 
 .PHONY: release
-release: clean tox build upload ## Release package: test, build and upload to PyPI.
+release: clean tox build publish ## Release package: test, build and publish to PyPI.
