@@ -11,13 +11,14 @@ readme = "README.md"
 requires-python = ">=3.6,<4"
 dynamic = ["version", "description"]
 license = { file = "LICENSE" }
-keywords = ["logging", "structured", "structure", "log"]
+keywords = ["sample", "development"]
 classifiers = [
     "Development Status :: 1 - Planning",
     "Environment :: Console",
     "Intended Audience :: Developers",
     "Intended Audience :: System Administrators",
-    "License :: OSI Approved :: ISC License (ISCL)",
+    "License :: OSI Approved :: Apache Software License",
+    "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3 :: Only",
@@ -44,6 +45,7 @@ Documentation = "https://{{ cookiecutter.project_slug }}.readthedocs.io/en/lates
 [project.optional-dependencies]
 dev = [
     "black",
+    "bump2version",
     "coverage[toml]",
     "flake8",
     "flit",

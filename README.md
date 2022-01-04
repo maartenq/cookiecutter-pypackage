@@ -6,7 +6,7 @@ A [Cookiecutter] template for a Python package project.
 
 ## Features
 
-* [Declarative config using setup.cfg]
+* [Flit]
 * [MkDocs]
 * [Pytest]
 * [Tox]
@@ -15,17 +15,17 @@ A [Cookiecutter] template for a Python package project.
   * [Black]
   * [isort]
   * [Flake8]
-* [setuptools-scm]
+* [bump2version]
 
 
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
-[Declarative config using setup.cfg]: https://setuptools.pypa.io/en/latest/userguide/declarative_config.html
 [Mkdocs]: https://www.mkdocs.org/
 [Pytest]: https://docs.pytest.org/
 [Tox]: https://tox.wiki/en/latest/
 [Typer]: https://typer.tiangolo.com/
 [black]: https://black.readthedocs.io/en/stable/
-[flake8]: https://flake8.pycqa.org/en/latest/
+[bump2version]: https://github.com/c4urself/bump2version
+[Flake8]: https://flake8.pycqa.org/en/latest/
+[Flit]: https://flit.readthedocs.io/en/latest/
 [isort]: https://pycqa.github.io/isort/
 [pre-commit]: https://pre-commit.com/
-[setuptools-scm]: https://pypi.org/project/setuptools-scm/
