@@ -8,21 +8,22 @@ repos:
     rev: v4.1.0
     hooks:
       - id: check-added-large-files
-      - id: end-of-file-fixer
-      - id: trailing-whitespace
+      - id: check-ast
       - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: debug-statements
+      - id: detect-private-key
+      - id: end-of-file-fixer
       - id: mixed-line-ending
         args:
-        - --fix=lf
-      - id: check-yaml
-      - id: check-toml
-      - id: check-ast
-      - id: check-merge-conflict
-      - id: detect-private-key
-      - id: debug-statements
+          - --fix=lf
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
 
   - repo: https://github.com/psf/black
-    rev: 21.12b0
+    rev: 22.1.0
     hooks:
       - id: black
 
@@ -38,6 +39,6 @@ repos:
         name: isort (python)
 
   - repo: https://github.com/tox-dev/tox-ini-fmt
-    rev: 0.5.1
+    rev: 0.5.2
     hooks:
       - id: tox-ini-fmt
