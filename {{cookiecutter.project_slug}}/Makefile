@@ -30,8 +30,8 @@ PACKAGE = {{ cookiecutter.project_slug }}
 help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
-.PHONY: devenv
-devenv: ## Install package (in dev mode) and dev packages.
+.PHONY: dev
+dev: ## Install package (in dev mode) and dev packages.
 	python -m pip install -U pip wheel
 	python -m pip install -e ".[dev,docs,test]"
 

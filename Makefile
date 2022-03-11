@@ -96,8 +96,8 @@ build: clean ## Builds source and wheel package.
 	python -m build
 	python -m twine check --strict dist/*
 
-.PHONY: devenv
-devenv: ## Install package (in dev mode) and dev packages.
+.PHONY: dev
+dev: ## Install package (in dev mode) and dev packages.
 	python -m pip install -U pip wheel setuptools
 	python -m pip install -e ".[dev,docs,test]"
 
